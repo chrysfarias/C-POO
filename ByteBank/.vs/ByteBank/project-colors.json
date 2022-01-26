@@ -5,7 +5,22 @@
       "ProjectGuid": "60aa8842-a9cf-4099-bb2e-88959169f2c8",
       "DisplayName": "01-ByteBank",
       "ColorIndex": 0
+    },
+    "a099f6ef-88fb-4ecb-bbac-0e1a122b0308": {
+      "ProjectGuid": "a099f6ef-88fb-4ecb-bbac-0e1a122b0308",
+      "DisplayName": "02-ByteBank",
+      "ColorIndex": 1
+    },
+    "cbcc3625-37d2-4c0e-a208-6f626ff7af19": {
+      "ProjectGuid": "cbcc3625-37d2-4c0e-a208-6f626ff7af19",
+      "DisplayName": "03-ByteBank",
+      "ColorIndex": 2
+    },
+    "a6294cb5-6679-492d-ac76-381c31165ddd": {
+      "ProjectGuid": "a6294cb5-6679-492d-ac76-381c31165ddd",
+      "DisplayName": "04-ByteBank",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 4
 }
