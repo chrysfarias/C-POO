@@ -35,6 +35,8 @@ namespace _05_ByteBank
             //teste
 
             Console.WriteLine(conta.titular.cpf);
+            Console.WriteLine(gabriela.nome);
+            Console.WriteLine(conta.titular.nome);
         }
     }
 }
