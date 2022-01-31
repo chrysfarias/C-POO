@@ -13,7 +13,9 @@ namespace _07_ByteBank
             ContaCorrente conta = new ContaCorrente(923201931,2839283);
             Console.WriteLine(conta.Agencia);
             Console.WriteLine(conta.Numero);
+            Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
 
+            Console.ReadLine();
         }
     }
 }
