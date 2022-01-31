@@ -1,20 +1,18 @@
 ﻿using System;
 //using _05_ByteBank;
 
-namespace _06_ByteBank 
+namespace _07_ByteBank 
 {
     public class ContaCorrente
     {
+        private double _saldo = 490;
         public Cliente Titular { get; set; }
         public int Agencia { get; set; }
         public int Numero { get; set; }
-
-        private double _saldo = 490;
-
+        
        
 
-
-
+       
 
 
 
@@ -43,7 +41,13 @@ namespace _06_ByteBank
 
 
 
+        public ContaCorrente(int agencia, int numero)  //construtor
+        { 
+         
+            Agencia = agencia;  
+            Numero  = numero;
         
+        }
 
 
 
