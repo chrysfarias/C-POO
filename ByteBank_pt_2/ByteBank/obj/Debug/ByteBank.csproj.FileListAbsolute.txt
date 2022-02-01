@@ -1,0 +1,16 @@
+C:\Users\chrys\csharp2\ByteBank\ByteBank\obj\Debug\ByteBank.csproj.AssemblyReference.cache
+C:\Users\chrys\csharp2\ByteBank\ByteBank\obj\Debug\ByteBank.csproj.SuggestedBindingRedirects.cache
+C:\Users\chrys\csharp2\ByteBank\ByteBank\obj\Debug\ByteBank.csproj.CoreCompileInputs.cache
+C:\Users\chrys\csharp2\ByteBank\ByteBank\bin\Debug\ByteBank.exe.config
+C:\Users\chrys\csharp2\ByteBank\ByteBank\bin\Debug\ByteBank.exe
+C:\Users\chrys\csharp2\ByteBank\ByteBank\bin\Debug\ByteBank.pdb
+C:\Users\chrys\csharp2\ByteBank\ByteBank\obj\Debug\ByteBank.exe
+C:\Users\chrys\csharp2\ByteBank\ByteBank\obj\Debug\ByteBank.pdb
+C:\Users\chrys\csharp\ByteBank_pt_2\ByteBank\bin\Debug\ByteBank.exe.config
+C:\Users\chrys\csharp\ByteBank_pt_2\ByteBank\bin\Debug\ByteBank.exe
+C:\Users\chrys\csharp\ByteBank_pt_2\ByteBank\bin\Debug\ByteBank.pdb
+C:\Users\chrys\csharp\ByteBank_pt_2\ByteBank\obj\Debug\ByteBank.csproj.AssemblyReference.cache
+C:\Users\chrys\csharp\ByteBank_pt_2\ByteBank\obj\Debug\ByteBank.csproj.SuggestedBindingRedirects.cache
+C:\Users\chrys\csharp\ByteBank_pt_2\ByteBank\obj\Debug\ByteBank.csproj.CoreCompileInputs.cache
+C:\Users\chrys\csharp\ByteBank_pt_2\ByteBank\obj\Debug\ByteBank.exe
+C:\Users\chrys\csharp\ByteBank_pt_2\ByteBank\obj\Debug\ByteBank.pdb
