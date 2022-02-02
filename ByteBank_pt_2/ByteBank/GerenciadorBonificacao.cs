@@ -18,7 +18,7 @@ namespace ByteBank
 
        
 
-        public double GetTotalBonificacao()
+        public  double GetTotalBonificacao()
         {
             return _totalBonificacao;
         }

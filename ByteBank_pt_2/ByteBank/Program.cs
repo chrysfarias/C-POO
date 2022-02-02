@@ -29,7 +29,9 @@ namespace ByteBank
 
             Console.WriteLine(bruno.Salario);
             Console.WriteLine(bruno.GetBonificacao());
-            Console.WriteLine(bruno.Salario);
+            Console.WriteLine(roberta.Salario);
+            Console.WriteLine(roberta.GetBonificacao());
+            Console.WriteLine(gerenciador.GetTotalBonificacao());
 
             
             
