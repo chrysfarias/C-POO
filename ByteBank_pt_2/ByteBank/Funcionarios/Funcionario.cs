@@ -8,7 +8,7 @@ namespace ByteBank.Funcionarios
 {
     public class Funcionario
     {
-        public string nome { get; set; }
+        public string Nome { get; set; }
         public string CPF { get; set; }
         public double Salario { get; set; }
 
@@ -16,8 +16,9 @@ namespace ByteBank.Funcionarios
         public double GetBonificacao()
         {
 
-            Salario += Salario * 0.15;
-            return Salario;
+
+            return Salario * 0.15;
+            
 
         }
     }
