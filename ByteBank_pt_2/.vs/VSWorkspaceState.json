@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ByteBank"
+    "\\ByteBank",
+    "\\ByteBank\\Funcionarios"
   ],
-  "SelectedNode": "\\ByteBank\\GerenciadorBonificacao.cs",
+  "SelectedNode": "\\ByteBank\\Funcionarios\\Funcionario.cs",
   "PreviewInSolutionExplorer": false
 }
