@@ -12,18 +12,25 @@ namespace ByteBank
     {
         static void Main(string[] args)
         {
+           
+
+
+            Console.ReadLine();
+        }
+
+        public void CalcularBonifiacao()
+        {
             GerenciadorBonificacao gerenciadorBonificacao = new GerenciadorBonificacao();
 
-            Diretor chrystian = new Diretor("Chrystian Pinheiro","09878787656");
+            Diretor chrystian = new Diretor("Chrystian Pinheiro", "09878787656");
 
-            Designer angela = new Designer("Angela Assis","98787654333");
+            Designer angela = new Designer("Angela Assis", "98787654333");
 
-            GerenteDeConta carlos = new GerenteDeConta("Carlos Guina","87656789000");
+            GerenteDeConta carlos = new GerenteDeConta("Carlos Guina", "87656789000");
 
-            Auxiliar marcela = new Auxiliar("Marcela Vitória","98787789876");
+            Auxiliar marcela = new Auxiliar("Marcela Vitória", "98787789876");
 
 
-            
 
             Console.WriteLine($"Diretor: {chrystian.Nome}.\nSalario base: {chrystian.Salario}.\n" +
             $"bonificação: {chrystian.GetBonificacao()}.");
@@ -36,25 +43,6 @@ namespace ByteBank
             Console.WriteLine("Total de bonificações do mês: "
             + gerenciadorBonificacao.GetTotalBonificacao());
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            Console.ReadLine();
         }
     }
 }
