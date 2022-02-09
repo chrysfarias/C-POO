@@ -15,14 +15,7 @@ namespace ByteBank.Funcionarios
         public static int TotalDeFuncionarios { get; private set; }
 
 
-        public virtual  void ObterAumentoSalario()
-        {
-            Salario += Salario * 0.10;
-           
-        
-        }
-
-        public Funcionario(double Salario, string Nome, string CPF) 
+        public Funcionario(double Salario, string Nome, string CPF)
         {
             this.Nome = Nome;
             this.CPF = CPF;
@@ -30,6 +23,15 @@ namespace ByteBank.Funcionarios
             TotalDeFuncionarios++;
         }
 
+
+        public virtual  void ObterAumentoSalario()
+        {
+            Salario += Salario * 0.10;
+           
+        
+        }
+
+      
       
         public virtual double GetBonificacao()
         {

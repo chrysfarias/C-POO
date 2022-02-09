@@ -14,7 +14,9 @@ namespace ByteBank
         {
             GerenciadorBonificacao gerenciador = new GerenciadorBonificacao();
             Funcionario bruno = new Funcionario(300,"Bruno pereira","0989829");
-            Diretor andre = new Diretor("Andre Rocha","3287487");
+            Diretor andre = new Diretor("Andre Rocha", "3287487");
+            GerenteDeConta ana = new GerenteDeConta("dfdf","dwfds");
+            
            
            
 
