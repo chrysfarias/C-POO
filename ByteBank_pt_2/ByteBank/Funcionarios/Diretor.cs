@@ -8,7 +8,7 @@ namespace ByteBank.Funcionarios
 {
     public class Diretor : Funcionario 
     {
-        public Diretor(string Nome, string CPF) : base(Nome, CPF) { }
+        public Diretor(string Nome, string CPF) : base(5000, Nome, CPF) { }
 
         public override double GetBonificacao()
         {
