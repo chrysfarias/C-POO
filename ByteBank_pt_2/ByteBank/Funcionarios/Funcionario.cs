@@ -11,7 +11,7 @@ namespace ByteBank.Funcionarios
         public string Nome { get; set; }
         public string CPF { get; private set; }
         public double Salario { get; protected set; }
-        public string Senha { get; set; }
+      
 
         public static int TotalDeFuncionarios { get; private set; }
 
@@ -24,11 +24,7 @@ namespace ByteBank.Funcionarios
             TotalDeFuncionarios++;
         }
 
-        public bool Autenticar(string senha) 
-        {
-            return this.Senha == senha; 
-        }
-
+       
 
         public abstract void ObterAumentoSalario();
         public abstract double GetBonificacao();

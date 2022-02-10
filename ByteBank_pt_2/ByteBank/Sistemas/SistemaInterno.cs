@@ -9,9 +9,9 @@ namespace ByteBank.Sistemas
 {
     internal class SistemaInterno
     {
-        public bool logar(Funcionario funcionario,string senha) 
+        public bool logar(Autenticavel autenticavel,string senha) 
         {
-            bool usuarioAutenticado = funcionario.Autenticar(senha);
+            bool usuarioAutenticado = autenticavel.Autenticar(senha);
 
             if (usuarioAutenticado)
             {
