@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank.Funcionarios
 {
-    public class Diretor : Autenticavel
+    public class Diretor : Funcionario, Autenticavel
     {
        
         public Diretor(string Nome, string CPF) : base(5000, Nome, CPF) { }
@@ -19,10 +19,15 @@ namespace ByteBank.Funcionarios
             return Salario * 0.5;
         }
 
-        public override void ObterAumentoSalario()
+        public override void AumentarSalario()
         {
             Salario += Salario * 0.15;
            
+        }
+
+        bool Autenticavel.Autenticar(string senha)
+        {
+            throw new NotImplementedException();
         }
     }
 }

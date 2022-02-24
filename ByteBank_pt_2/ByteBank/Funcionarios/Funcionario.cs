@@ -19,14 +19,14 @@ namespace ByteBank.Funcionarios
         public Funcionario(double Salario, string Nome, string CPF)
         {
             this.Nome = Nome;
-            this.CPF = CPF;
+            this.CPF = CPF; 
             this.Salario = Salario;
             TotalDeFuncionarios++;
         }
 
        
 
-        public abstract void ObterAumentoSalario();
+        public abstract void AumentarSalario();
         public abstract double GetBonificacao();
         
     }

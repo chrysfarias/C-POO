@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank.Sistemas
 {
-    internal class SistemaInterno
+    public class SistemaInterno
     {
         public bool logar(Autenticavel autenticavel,string senha) 
         {

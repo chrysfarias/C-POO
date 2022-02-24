@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\ByteBank",
-    "\\ByteBank\\Funcionarios"
+    "\\ByteBank\\Funcionarios",
+    "\\ByteBank\\Sistemas"
   ],
-  "SelectedNode": "\\ByteBank\\Funcionarios\\Diretor.cs",
+  "SelectedNode": "\\ByteBank\\Funcionarios\\GerenteDeConta.cs",
   "PreviewInSolutionExplorer": false
 }

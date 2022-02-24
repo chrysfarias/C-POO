@@ -15,7 +15,7 @@ namespace ByteBank.Funcionarios
             return Salario * 0.17;
         }
 
-        public override void ObterAumentoSalario()
+        public override void AumentarSalario()
         {
             Salario *= 0.11; 
         }

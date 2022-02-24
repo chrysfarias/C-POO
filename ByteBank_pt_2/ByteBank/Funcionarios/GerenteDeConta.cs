@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank.Funcionarios
 {
-    internal class GerenteDeConta : Autenticavel
+    public class GerenteDeConta : Autenticavel
     {
         public GerenteDeConta(string Nome, string CPF) : base(4000, Nome,CPF) { }
 
@@ -16,7 +16,7 @@ namespace ByteBank.Funcionarios
             return Salario * 0.25;
         }
 
-        public override void ObterAumentoSalario()
+        public override void AumentarSalario()
         {
              Salario *= 0.5;
         }
